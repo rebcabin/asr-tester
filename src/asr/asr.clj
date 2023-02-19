@@ -346,18 +346,6 @@
     (summary it)))
 
 
-(defprotocol Lookup
-  (lookup [entity penv]))
-
-
-(extend java.lang.Long
-  Summarize
-  {:summary   (fn [l] [:JLL l])
-   :summarize (fn [l] (println (summary l)) l)}
-  Lookup
-  {:lookup    (fn [l, _] l)})
-
-
 (defprotocol Run
   (run [e] "Perform abstract execution on a program or
  program element."))
@@ -369,6 +357,14 @@
   (if (and (list? it) (empty? it))
     (fn [penv] it)
     (run it)))
+
+
+(extend java.lang.Long
+  Summarize
+  {:summary   (fn [l] [:JLL l])
+   :summarize (fn [l] (println (summary l)) l)}
+  Run
+  {:run       (fn [l] (fn [penv] l))})
 
 
 ;;          _ _
@@ -587,7 +583,7 @@
               (do
                 (assert (= head 'ExternalSymbol))
                 (sm/push-call-args
-                 (map #(lookup % penv) vals))
+                 (map #((run %) penv) vals))
                 ((run function) penv)
                 (sm/pop-result))
               ))
@@ -620,8 +616,7 @@
     :as function-call
     ]]
   (fn [penv]
-    (let [stab (@ΓΣ stid)
-          fun  (lookup-penv nym stab)]
+    (let [stab (@ΓΣ stid), fun  (lookup-penv nym stab)]
       (when (not fun)
         (throw (Exception.
                 (f-str "Error: Function {nym} not found."))))
@@ -1168,11 +1163,6 @@
 
     (summary [_] [:VRBL (:head name), (conditional-summary value)])
     (summarize [c] (println (summary c)) c)
-
-    Lookup
-
-    (lookup [_, penv]
-      (lookup-penv (:head name) penv))
 
     Run
     (run [_]
