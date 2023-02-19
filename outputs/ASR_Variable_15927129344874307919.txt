@@ -1,0 +1,12 @@
+((Variable
+  1
+  J
+  ReturnVar
+  []
+  []
+  Parameter
+  (Dict (CPtr) (Logical 8 [0 1]))
+  Source
+  Private
+  Required
+  .true.))

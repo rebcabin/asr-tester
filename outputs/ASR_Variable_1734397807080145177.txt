@@ -1,0 +1,12 @@
+((Variable
+  1
+  k
+  Out
+  []
+  []
+  Allocatable
+  (TypeParameter [])
+  LFortranModule
+  Private
+  Optional
+  .true.))

@@ -1,0 +1,12 @@
+((Variable
+  1
+  N
+  InOut
+  []
+  []
+  Parameter
+  (Character 1 [0 55])
+  GFortranModule
+  Public
+  Required
+  .true.))

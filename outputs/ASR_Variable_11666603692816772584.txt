@@ -1,0 +1,12 @@
+((Variable
+  1
+  w
+  InOut
+  []
+  []
+  Save
+  (Set (Pointer (Class ClassType U GFortranModule Private [0 1])))
+  GFortranModule
+  Public
+  Required
+  .false.))

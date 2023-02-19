@@ -1,0 +1,12 @@
+((Variable
+  1
+  T
+  In
+  []
+  []
+  Parameter
+  (List (Logical 8 [0]))
+  GFortranModule
+  Public
+  Required
+  .false.))

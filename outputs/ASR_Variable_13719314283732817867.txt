@@ -1,0 +1,12 @@
+((Variable
+  1
+  s
+  Out
+  []
+  []
+  Allocatable
+  (Logical 8 [6])
+  Interactive
+  Private
+  Optional
+  .true.))

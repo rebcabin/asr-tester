@@ -1,0 +1,12 @@
+((Variable
+  1
+  e
+  InOut
+  []
+  []
+  Allocatable
+  (Class ClassType o Intrinsic Private [1])
+  Intrinsic
+  Private
+  Optional
+  .false.))

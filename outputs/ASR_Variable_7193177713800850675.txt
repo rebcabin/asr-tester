@@ -1,0 +1,12 @@
+((Variable
+  1
+  v
+  InOut
+  []
+  []
+  Default
+  (TypeParameter [0 2])
+  Source
+  Public
+  Required
+  .false.))

@@ -1,0 +1,12 @@
+((Variable
+  1
+  F
+  Local
+  []
+  []
+  Save
+  (Integer 1 [1])
+  GFortranModule
+  Public
+  Optional
+  .false.))

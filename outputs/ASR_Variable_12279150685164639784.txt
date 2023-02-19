@@ -1,0 +1,12 @@
+((Variable
+  1
+  Z
+  Local
+  []
+  []
+  Parameter
+  (Tuple [])
+  BindC
+  Public
+  Required
+  .true.))

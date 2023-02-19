@@ -1,0 +1,12 @@
+((Variable
+  1
+  H
+  Unspecified
+  []
+  []
+  Allocatable
+  (Integer 4 [0])
+  Interactive
+  Private
+  Required
+  .false.))

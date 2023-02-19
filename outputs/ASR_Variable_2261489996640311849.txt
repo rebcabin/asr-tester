@@ -1,0 +1,12 @@
+((Variable
+  1
+  Q
+  ReturnVar
+  []
+  []
+  Allocatable
+  (Class ClassType Q BindC Public [1 1])
+  Interactive
+  Public
+  Optional
+  .true.))

@@ -1,0 +1,12 @@
+((Variable
+  1
+  g
+  In
+  []
+  []
+  Allocatable
+  (Pointer (Pointer (Complex 4 [0 1])))
+  Intrinsic
+  Private
+  Required
+  .true.))

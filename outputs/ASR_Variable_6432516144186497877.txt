@@ -1,0 +1,12 @@
+((Variable
+  1
+  Y
+  Out
+  []
+  []
+  Allocatable
+  (Real 4 [0])
+  Interactive
+  Public
+  Required
+  .true.))

@@ -1,0 +1,12 @@
+((Variable
+  1
+  j
+  Out
+  []
+  []
+  Default
+  (Real 4 [0 47])
+  Intrinsic
+  Public
+  Optional
+  .false.))

@@ -1,0 +1,12 @@
+((Variable
+  1
+  k
+  In
+  []
+  []
+  Parameter
+  (Pointer (Character 1 []))
+  LFortranModule
+  Public
+  Required
+  .true.))

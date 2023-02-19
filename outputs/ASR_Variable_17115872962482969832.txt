@@ -1,0 +1,20 @@
+((Variable
+  1
+  B
+  InOut
+  []
+  []
+  Default
+  (Derived
+   DerivedType
+   symbol-table-placeholder
+   K
+   []
+   BindC
+   Private
+   ()
+   [])
+  Interactive
+  Public
+  Optional
+  .true.))

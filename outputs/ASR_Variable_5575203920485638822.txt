@@ -1,0 +1,20 @@
+((Variable
+  1
+  g
+  InOut
+  []
+  []
+  Parameter
+  (Derived
+   DerivedType
+   symbol-table-placeholder
+   f
+   []
+   Intrinsic
+   Public
+   K
+   [])
+  Source
+  Private
+  Optional
+  .false.))

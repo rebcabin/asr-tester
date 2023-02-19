@@ -1,0 +1,20 @@
+((Variable
+  1
+  u
+  In
+  []
+  []
+  Default
+  (Derived
+   DerivedType
+   symbol-table-placeholder
+   s
+   []
+   Interactive
+   Public
+   S
+   [1])
+  GFortranModule
+  Private
+  Optional
+  .false.))

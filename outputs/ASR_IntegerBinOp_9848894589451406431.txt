@@ -1,0 +1,24 @@
+((IntegerBinOp
+  (IntegerConstant 0 (Integer 4 []))
+  Mul
+  (IntegerConstant -1 (Integer 4 []))
+  (Integer 4 [])
+  (IntegerConstant 0 (Integer 4 [])))
+ (IntegerBinOp
+  (IntegerConstant 0 (Integer 4 []))
+  Mul
+  (IntegerConstant -1 (Integer 4 []))
+  (Integer 4 [])
+  (IntegerConstant 0 (Integer 4 [])))
+ (IntegerBinOp
+  (IntegerConstant 0 (Integer 4 []))
+  BitAnd
+  (IntegerConstant -1 (Integer 4 []))
+  (Integer 4 [])
+  (IntegerConstant 0 (Integer 4 [])))
+ (IntegerBinOp
+  (IntegerConstant 1 (Integer 4 []))
+  BitLShift
+  (IntegerConstant 6 (Integer 4 []))
+  (Integer 4 [])
+  (IntegerConstant 64 (Integer 4 []))))

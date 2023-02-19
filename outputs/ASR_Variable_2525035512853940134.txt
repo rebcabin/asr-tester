@@ -1,0 +1,12 @@
+((Variable
+  1
+  C
+  InOut
+  []
+  []
+  Parameter
+  (Character 1 [])
+  BindC
+  Private
+  Required
+  .true.))

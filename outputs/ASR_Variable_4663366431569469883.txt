@@ -1,0 +1,12 @@
+((Variable
+  1
+  A
+  Local
+  []
+  []
+  Parameter
+  (Character 1 [0])
+  Intrinsic
+  Public
+  Required
+  .false.))

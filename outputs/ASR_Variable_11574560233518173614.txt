@@ -1,0 +1,12 @@
+((Variable
+  1
+  o
+  Out
+  []
+  []
+  Default
+  (List (CPtr))
+  LFortranModule
+  Public
+  Required
+  .true.))

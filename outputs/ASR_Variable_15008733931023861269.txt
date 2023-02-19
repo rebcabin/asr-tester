@@ -1,0 +1,12 @@
+((Variable
+  1
+  Z
+  InOut
+  []
+  []
+  Save
+  (Class ClassType L GFortranModule Private [])
+  Intrinsic
+  Private
+  Required
+  .true.))

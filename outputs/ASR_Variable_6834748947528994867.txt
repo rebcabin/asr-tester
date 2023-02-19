@@ -1,0 +1,23 @@
+((Variable
+  1
+  T
+  InOut
+  []
+  []
+  Default
+  (Dict
+   (List
+    (Derived
+     DerivedType
+     symbol-table-placeholder
+     a
+     []
+     Interactive
+     Private
+     u
+     []))
+   (Logical 4 [0]))
+  Intrinsic
+  Private
+  Optional
+  .true.))
